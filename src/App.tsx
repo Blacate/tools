@@ -1,10 +1,15 @@
-import { Button } from '@arco-design/web-react'
+import './app.less'
+import { HeaderMain } from './components/header/header-main/HeaderMain'
+
 
 function App() {
 
   return (
-    <div className="App">
-      <Button type="primary">Hello Arco</Button>
+    <div className="app">
+      <HeaderMain className="header"></HeaderMain>
+      <div className="main">
+        
+      </div>
     </div>
   )
 }
