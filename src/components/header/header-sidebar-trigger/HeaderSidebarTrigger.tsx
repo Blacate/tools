@@ -9,7 +9,7 @@ export const HeaderSidebarTrigger: FC = () => {
   const [sidebarVisible, setSidebarVisible] = useAtom(sidebarVisibleAtom)
 
   return <button
-    className={cs('header-sidebar-trigger', sidebarVisible ? 'open' : 'close')}
+    className={cs('header-sidebar-trigger', sidebarVisible ? 'close' : 'open')}
     onClick={() => setSidebarVisible(value => !value)}
   >
     <span className="hst-line hst-line-1" />

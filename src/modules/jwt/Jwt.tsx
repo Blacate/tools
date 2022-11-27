@@ -1,5 +1,5 @@
 import { FC } from 'react';
 
 export const JwtModule: FC = () => {
-  return <div>jwt</div>
+  return <div className="jwt-wrap"></div>
 }
